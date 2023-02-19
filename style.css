@@ -1,0 +1,209 @@
+html,body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+header {
+
+    background-color:rgb(246, 246, 161);
+   padding:50px;
+    text-align: center;
+    border-radius:50px;         
+}
+   header h2 {
+font-size:40px;
+font-style:italic;
+color:green;
+border-radius:30px;
+background-color:rgb(236, 133, 133);
+
+   }
+
+ h1 {
+font-size: 60px;
+color:black;
+
+}
+header h1 {
+    border-radius:30px;
+    background-color: yellow;
+}
+
+header img {
+
+    border-radius: 50px;
+    width: 300px;
+    border: 16px solid green;
+}
+
+.content {
+
+    max-width: 900px;
+    margin: 0 20px;
+    padding:0 20px;
+
+}
+
+
+img.big-image {
+    max-width:100%;
+ border-radius:50px;
+ border: 16px solid blue;
+
+}
+
+p.caption {
+
+    font-size: 16px;
+    color:gray;
+    font-style: italic;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+    
+}
+
+a {
+
+    color:red;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color:blue;
+}
+
+
+footer {
+
+margin-top:20px;
+padding:40px 20px;
+background-color: rgb(10, 36, 20);
+ 
+}
+
+footer ul {
+    text-align: center;
+
+}
+
+footer ul li {
+
+    display:inline-block;
+    margin:0 5px; 
+    color:white;
+}
+
+
+.container {
+    width:100%;
+    height:100vh;
+    background:#f2e9ff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+
+.gallery {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+    }
+
+    .img-box {
+        width:100px;
+        height:500px;
+        margin:12px;
+        border-radius:50px;
+        background-image: url(../images/shafiq.JPG);
+        background-size:cover;
+        background-position:center;
+        position:relative;
+        transition: width 0.5s ease-in-out;
+        }
+
+
+        .img-box:nth-child(2){
+
+            background: url(../images/khan.JPG);
+            background-size:cover;
+            background-position:center;
+        }
+
+        .img-box:nth-child(3){
+            background: url(../images/mehsood.JPG);
+            background-size:cover;
+            background-position:center;
+            }
+
+            .img-box:nth-child(4){
+
+                background: url(../images/ishangi.JPG);
+                background-size:cover;
+                background-position:center;
+                }
+
+                
+    
+
+                .img-box h3 {
+                    color:rgb(11, 11, 11);
+                    position:absolute;
+                    bottom: 0;
+                    left: 25px;
+                    opacity: 0;
+                    transition: bottom 0.5s, opacity 0.5s;
+                    
+                    }
+
+
+
+        .img-box:hover {
+            width:200px;
+            cursor:pointer;
+            }
+
+            .img-box:hover h3 {
+                opacity: 1;
+                bottom: 25px;
+                left:25px;
+                 
+                }  
+
+
+.container h2 {
+background-color: red;
+text-align:left;
+justify-content: left;
+border-radius:174px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
